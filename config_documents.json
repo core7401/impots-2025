@@ -1,0 +1,195 @@
+{
+ "base_dir": "C:\\data\\impots",
+  "inbox_dir": "C:\\data\\impots\\in",
+  "output_dir": "C:\\data\\out",
+  "review_dir": "C:\\data\\impots\\check",
+  "ollama": {
+    "base_url": "http://localhost:11434/api",
+    "model": "deepseek-llm:latest",
+    "timeout_seconds": 180,
+    "max_text_for_ai": 12000
+  },
+  "supported_extensions": [
+    ".pdf",
+    ".docx",
+    ".xlsx",
+    ".pptx",
+    ".txt",
+    ".md",
+    ".html",
+    ".htm",
+    ".csv"
+  ],
+  "thresholds": {
+    "min_apartment_score": 8,
+    "min_score_gap": 3,
+    "min_category_score": 3
+  },
+  "categories": {
+    "Assurance habitation": [
+      "attestation de cotisation CORAIL"
+    ],
+    "Attestation interets et assurance": [
+      "Attestation d'intérêts"
+
+    ],
+    "Facture EDF": [
+      "edf",
+      "electricite",
+      "électricité",
+      "consommation",
+      "kwh",
+      "abonnement electricite",
+      "abonnement électricité",
+      "facture edf",
+      "compteur linky",
+      "point de livraison",
+      "pdl"
+    ],
+    "Facture eau": [
+      "facture eau",
+      "distribution eau",
+      "consommation eau",
+      "m3",
+      "eau potable",
+      "service des eaux",
+      "compteur eau"
+    ],
+    "Facture box": [
+      "internet",
+      "box internet",
+      "fibre",
+      "adsl",
+      "ligne fixe",
+      "abonnement box",
+      "orange",
+      "free",
+      "sfr",
+      "bouygues telecom",
+      "bouygues",
+      "facture box"
+    ],
+    "Charges copro": [
+      "copropriete",
+      "copropriété",
+      "syndic",
+      "appel de fonds",
+      "charges copro",
+      "charges de copropriete",
+      "charges de copropriété",
+      "assemblee generale",
+      "assemblée générale",
+      "immeuble",
+      "quote-part"
+    ]
+  },
+  "apartments": {
+    "aristide": {
+      "strong_keywords": [
+        "HABITATION IM 6323821",
+        "8 RUE ARISTIDE BRIAND"
+      ],
+      "medium_keywords": [
+      "6323821"  
+      ],
+      "weak_keywords": [
+        "ARISTIDE",
+        "BRIAND"
+      ]
+    },
+    "giffre 2": {
+      "strong_keywords": [
+        "HABITATION IM 6095990",
+        "4 AVENUE DU GIFFRE",
+        "00020096524",
+        "00020096541"
+      ],
+      "medium_keywords": [
+      "6095990"  
+      ],
+      "weak_keywords": [
+        "giffre"
+      ]
+    },
+    "giffre 4": {
+      "strong_keywords": [
+        "HABITATION IM 6095988",
+        "4 AVENUE DU GIFFRE",
+        "LOT 163",
+        "00020096523"
+      ],
+      "medium_keywords": [
+      "6095988"  
+      ],
+      "weak_keywords": [
+        "giffre"
+      ]
+    },
+    "Paul Bert": {
+      "strong_keywords": [
+        "corail IC 6001749",
+        "5 rue Paul Bert",
+        "00020096528"
+      ],
+      "medium_keywords": [
+
+      ],
+      "weak_keywords": [
+        "paul bert"
+      ]
+    },
+    "vignes 4": {
+      "strong_keywords": [
+        "corail IC 6001749",
+        "4 route des vignes",
+        "00020096529"
+      ],
+      "medium_keywords": [
+        "6001749"
+      ],
+      "weak_keywords": [
+        "vignes"
+      ]
+    },
+    "vignes 10": {
+      "strong_keywords": [
+        "corail IC 6001820",
+        "10 route des vignes",
+        "00020096531"
+      ],
+      "medium_keywords": [
+        "6001820"
+      ],
+      "weak_keywords": [
+        "vignes"
+      ]
+    },
+    "vignes 12": {
+      "strong_keywords": [
+        "corail IC 6001819",
+        "12 route des vignes",
+        "00020096530"
+      ],
+      "medium_keywords": [
+        "6001819"
+      ],
+      "weak_keywords": [
+        "vignes"
+      ]
+    }, 
+    "vallees": {
+      "strong_keywords": [
+        "HABITATION IM 6090289",
+        "86 ROUTE DES VALLEES"
+      ],
+      "medium_keywords": [
+        "6090289",
+        "00020096523"
+      ],
+      "weak_keywords": [
+        "VALLEES"
+      ]
+    }
+
+  }
+}
