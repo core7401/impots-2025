@@ -1,7 +1,7 @@
 {
  "base_dir": "C:\\data\\impots",
   "inbox_dir": "C:\\data\\impots\\in",
-  "output_dir": "C:\\data\\out",
+  "output_dir": "C:\\data\\impots\\out",
   "review_dir": "C:\\data\\impots\\check",
   "ollama": {
     "base_url": "http://localhost:11434/api",
@@ -30,8 +30,8 @@
       "attestation de cotisation CORAIL"
     ],
     "Attestation interets et assurance": [
-      "Attestation d'intérêts"
-
+      "Attestation d'intérêts",
+      "attestation d'interets et de cotisation d'assurance"
     ],
     "Facture EDF": [
       "edf",
@@ -180,16 +180,28 @@
     "vallees": {
       "strong_keywords": [
         "HABITATION IM 6090289",
-        "86 ROUTE DES VALLEES"
+        "86 ROUTE DES VALLEES",
+        "00020096522"
       ],
       "medium_keywords": [
-        "6090289",
-        "00020096523"
+        "6090289"
+        
       ],
       "weak_keywords": [
         "VALLEES"
       ]
+    },
+    "RP": {
+      "strong_keywords": [
+        "00020096536",
+        "00020096537"
+      ],
+      "medium_keywords": [
+        
+      ],
+      "weak_keywords": [
+        
+      ]
     }
-
   }
 }
